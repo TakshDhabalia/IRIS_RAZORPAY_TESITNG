@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { supabase } from '../utils/supabaseClient';
-
+import { supabase } from '../../utils/supabaseClient';
+import {dotenvdotlocal} from '.env.local'
 export default function Home() {
   const [loading, setLoading] = useState(false);
 
